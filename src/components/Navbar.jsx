@@ -16,7 +16,7 @@ function Navbar() {
   let handleLogout = () => {
     dispetch({ type: "LOG_OUT", user: null });
     toast(`Bye Bye ${user.displayName} `, {
-      icon: "👏",
+      icon: "✅",
     });
   };
   let [theme, setTheme] = useState(localStrog());
