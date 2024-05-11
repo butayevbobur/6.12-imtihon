@@ -97,7 +97,7 @@ function Navbar() {
             handleLogout();
             handleSingOut();
           }}
-          className="btn btn-primary"
+          className="btn   btn-primary  	cursor: help;"
         >
           LogOut
         </a>
