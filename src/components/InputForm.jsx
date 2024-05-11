@@ -9,7 +9,6 @@ function InputForm({ type, name, label, placeholder }) {
       <input
         placeholder={placeholder}
         type={type}
-        // placeholder="text"
         name={name}
         className="input input-bordered w-full max-w-xs [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
       />
