@@ -23,7 +23,7 @@ function Singup() {
           <InputForm label="password" name="password" />
           <button
             onClick={handleSubmit}
-            className="btn btn-accent w-full mb-3 mt-3"
+            className="btn btn-red w-full mb-3 mt-3"
           >
             Submit
           </button>
