@@ -20,13 +20,7 @@ function Navbar() {
     });
   };
   let [theme, setTheme] = useState(localStrog());
-  const darkMode = (e) => {
-    if (e.target.checked) {
-      setTheme("halloween");
-    } else {
-      setTheme("light");
-    }
-  };
+
   useEffect(() => {
     localStorage.setItem("theme", theme);
     const localTheme = localStorage.getItem("theme");
