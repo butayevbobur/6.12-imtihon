@@ -4,12 +4,12 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDVch0BpkJ34z0c3wi7h_XmJCNnXL2DSG4",
-  authDomain: "kitchen-78948.firebaseapp.com",
-  projectId: "kitchen-78948",
-  storageBucket: "kitchen-78948.appspot.com",
-  messagingSenderId: "844648750263",
-  appId: "1:844648750263:web:d5952b83b360f1ff54c132",
+  apiKey: "AIzaSyBUDXvdg4lNJtiwheAfE95iyicoQOtjfY4",
+  authDomain: "mymarket-ef4a6.firebaseapp.com",
+  projectId: "mymarket-ef4a6",
+  storageBucket: "mymarket-ef4a6.appspot.com",
+  messagingSenderId: "908627597211",
+  appId: "1:908627597211:web:5193d0625f408cad78333e",
 };
 
 const app = initializeApp(firebaseConfig);

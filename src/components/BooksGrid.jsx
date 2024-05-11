@@ -28,7 +28,7 @@ function BooksGrid() {
                   </h2>
                   <p className="line-clamp-2 mb-2">{dish.description}</p>
                   <div className="flex gap-10 items ">
-                    <span className=" text-accent"> Time: {dish.time}</span>
+                    <span className=" "> Time: {dish.time}</span>
                   </div>
                   <div className="card-actions justify-start line-clamp-3">
                     <p className="bg-transparent">

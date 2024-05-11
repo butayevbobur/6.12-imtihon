@@ -22,9 +22,7 @@ export let action = async ({ request }) => {
 function Crerate() {
   let navigate = useNavigate();
   let actionData = useActionData();
-  const show = () => {
-    showLoading(true);
-  };
+
   useEffect(() => {
     if (actionData) {
       navigate("/");
@@ -49,9 +47,7 @@ function Crerate() {
             className="textarea textarea-bordered textarea-sm  max-w-xs w-full"
           ></textarea>
         </label>
-        <button onClick={show} className="btn btn-primary mb-5 w-80  ">
-          Submit
-        </button>
+        <button className="btn btn-primary mb-5 w-80  ">Submit</button>
         <GlobalLoading />
       </Form>
     </div>
